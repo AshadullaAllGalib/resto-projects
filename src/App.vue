@@ -78,6 +78,8 @@ export default {
   font-size: 18px;
   padding: 8px 0;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 
 .register button:hover {
@@ -106,5 +108,10 @@ export default {
 
 .register a:hover {
   transform: scale(1.05);
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
 }
 </style>
